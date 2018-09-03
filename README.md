@@ -1,7 +1,7 @@
 # A Nova tool to help debug failed jobs
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/kregel/nova-failed-jobs-tool.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
-[![Total Downloads](https://img.shields.io/packagist/dt/kregel/nova-failed-jobs-tool.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/kregel/nova-failed-jobs-tool.svg?style=flat-square)](https://packagist.org/packages/kregel/nova-failed-jobs-tool)
+[![Total Downloads](https://img.shields.io/packagist/dt/kregel/nova-failed-jobs-tool.svg?style=flat-square)](https://packagist.org/packages/kregel/nova-failed-jobs-tool)
 
 Ever try to figure out why some job failed? Ever try to do that when you're using SQS? It's a pain isn't it? Well, no more... 
 
