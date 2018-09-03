@@ -1,5 +1,5 @@
 {
-    "name": "kregel/nova-failed-jobs",
+    "name": "kregel/nova-failed-jobs-tool",
     "description": "A Nova tool to help debug failed jobs",
     "keywords": [
         "laravel",
@@ -11,7 +11,7 @@
             "url": "../laravel-nova"
         }
     ],
-    "homepage": "https://github.com/kregel/nova-failed-jobs",
+    "homepage": "https://github.com/kregel/nova-failed-jobs-tool",
     "license": "MIT",
     "authors": [
         {
