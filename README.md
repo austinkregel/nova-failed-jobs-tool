@@ -3,10 +3,11 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kregel/nova-failed-jobs-tool.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
 [![Total Downloads](https://img.shields.io/packagist/dt/kregel/nova-failed-jobs-tool.svg?style=flat-square)](https://packagist.org/packages/:vendor/:package_name)
 
+Ever try to figure out why some job failed? Ever try to do that when you're using SQS? It's a pain isn't it? Well, no more... 
 
-This is where your description should go. Try and limit it to a paragraph or two.
+This tool aims to help you figure out why a job might have failed. It gives you relevant code snippets and information about the values pushed through for a given job. You can toggle the stacktrace to view vendor sources, or you can choose to hide them.
 
-Add a screenshot of the tool here.
+![Screenshot](./screenshot.png)
 
 ## Installation
 
