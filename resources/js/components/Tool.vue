@@ -33,11 +33,14 @@
         methods: {
             getFailedJobs() {
                 this.loading = true;
-                axios.get('/nova-vendor/kregel/nova-failed-jobs/failed-jobs')
+                Nova.request().get('/nova-vendor/kregel/nova-failed-jobs/failed-jobs')
                     .then(res => {
                         this.failedJobs = res.data;
                         this.highlight()
                         this.loading = false;
+                    })
+                    .catch(err => {
+                        this.$toasted.show(err.response.data.message, { type: 'error' })
                     });
             },
             refreshJobList() {
