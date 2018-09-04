@@ -8,7 +8,7 @@
                 Refresh Job List
             </button>
             <button class="h-8 bg-blue text-white px-2 rounded shadow ml-4" @click.prevent="toggleVendorTrace">
-                Show Vendor Trace
+                {{ showVendorTrace ? 'Hide' : 'Show' }} Vendor Trace
             </button>
         </div>
 
