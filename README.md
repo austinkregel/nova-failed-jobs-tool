@@ -35,7 +35,7 @@ public function tools()
 
 ## Usage
 
-Click on the "Failed Jobs Log" menu item in your Nova app to see the tool provided by this package.
+Click on the "Failed Job Manager" menu item in your Nova app to see the tool provided by this package.
 
 ## Contributing
 
