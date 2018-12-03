@@ -1,6 +1,7 @@
 /build
 /vendor
 /node_modules
+.idea
 package-lock.json
 composer.phar
 composer.lock
