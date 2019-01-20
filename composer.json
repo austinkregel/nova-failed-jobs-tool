@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "kregel/exception-probe": "^0.0.3",
+        "kregel/exception-probe": "^0.0.4",
         "laravel/nova": "*"
     },
     "require-dev": {
