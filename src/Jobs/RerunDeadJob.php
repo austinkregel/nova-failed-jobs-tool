@@ -43,5 +43,7 @@ class RerunDeadJob
 
         $queue->connection($job->connection)
             ->pushRaw(json_encode($newJobDetails), $job->queue);
+        // delete failed job
+        $job->delete();
     }
 }
