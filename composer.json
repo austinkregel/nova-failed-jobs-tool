@@ -5,12 +5,6 @@
         "laravel",
         "nova"
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../nova"
-        }
-    ],
     "homepage": "https://github.com/kregel/nova-failed-jobs-tool",
     "license": "MIT",
     "authors": [
@@ -22,8 +16,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "kregel/exception-probe": "^0.0.4",
-        "laravel/nova": "*"
+        "kregel/exception-probe": "^0.0.4"
     },
     "require-dev": {
         "orchestra/testbench": "^3.6",
