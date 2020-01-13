@@ -19,6 +19,12 @@ class FailedJob extends Model
         'args',
     ];
 
+    public function __construct(array $attributes = [])
+    {
+        $this->table = config('queue.failed.table');
+        parent::__construct($attributes);
+    }
+
     public function getArgsAttribute()
     {
         $payload = json_decode($this->payload);

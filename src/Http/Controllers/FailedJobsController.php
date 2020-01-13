@@ -12,7 +12,7 @@ class FailedJobsController extends Controller
 {
     public function index()
     {
-        if (!Schema::hasTable('failed_jobs')) {
+        if (!Schema::hasTable(config('queue.failed.table'))) {
             return response([
                 'message' => 'You do not have the failed jobs table set up'
             ], 428);
