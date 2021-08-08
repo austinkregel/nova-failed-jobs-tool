@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "kregel/exception-probe": "^0.0.4"
+        "kregel/exception-probe": "^1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.6",
