@@ -3,6 +3,7 @@
 namespace Kregel\NovaFailedJobs\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Kregel\ExceptionProbe\Stacktrace;
 
 /**
@@ -13,6 +14,8 @@ use Kregel\ExceptionProbe\Stacktrace;
  */
 class FailedJob extends Model
 {
+    use SoftDeletes;
+
     public $appends = [
         'codestack',
         'message',
